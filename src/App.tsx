@@ -166,7 +166,7 @@ function App() {
     return (
       <div className="loading-screen">
         <span className="brand-mark">P</span>
-        <h1>{error ? "Pulsefolio is unavailable" : "Loading Pulsefolio"}</h1>
+        <h1>{error ? "MarketScope is unavailable" : "Loading MarketScope"}</h1>
         <p>{error || "Preparing your investment workspace..."}</p>
       </div>
     );
@@ -175,7 +175,7 @@ function App() {
   return (
     <div className="app-shell">
       <aside className={`sidebar ${mobileMenu ? "open" : ""}`}>
-        <div className="brand"><span className="brand-mark">P</span><span>Pulsefolio</span></div>
+        <div className="brand"><span className="brand-mark">M</span><span>MarketScope</span></div>
         <button className="close-mobile" onClick={() => setMobileMenu(false)} aria-label="Close menu"><X /></button>
         <nav>
           <button className={view === "dashboard" ? "active" : ""} onClick={() => { setView("dashboard"); setMobileMenu(false); }}>
@@ -344,7 +344,7 @@ function App() {
               </section>
             </>
           )}
-          <footer><span>Pulsefolio demo</span><span>Not financial advice · All values are illustrative</span></footer>
+          <footer><span>MarketScope demo</span><span>Not financial advice · All values are illustrative</span></footer>
         </div>
       </main>
       {toast && <div className="toast">{toast}</div>}

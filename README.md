@@ -1,8 +1,8 @@
-# Pulsefolio
+# MarketScope
 
 A polished, full-stack investment workspace made as a portfolio project. It includes a responsive market dashboard, searchable positions, portfolio analytics, activity history, and a drag-and-drop investment research Kanban.
 
-> All account, portfolio, transaction, and task data is synthetic. Pulsefolio is a product demo, not financial advice.
+> All account, portfolio, transaction, and task data is synthetic. MarketScope is a product demo, not financial advice.
 
 ## Highlights
 
@@ -61,4 +61,4 @@ npm run check           # build and test
 
 ## Portfolio talking points
 
-Pulsefolio demonstrates API integration, dependency isolation, typed full-stack code, responsive UI, data visualization, error states, and an extensible cloud adapter rather than embedding third-party secrets in browser code.
+MarketScope demonstrates API integration, dependency isolation, typed full-stack code, responsive UI, data visualization, error states, and an extensible cloud adapter rather than embedding third-party secrets in browser code.

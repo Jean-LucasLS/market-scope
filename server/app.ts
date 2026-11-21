@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json({ limit: "32kb" }));
 
 app.get("/api/health", (_request, response) => {
-  response.json({ status: "ok", service: "pulsefolio-api" });
+  response.json({ status: "ok", service: "market-scope-api" });
 });
 
 app.get("/api/dashboard", async (_request, response) => {
@@ -51,6 +51,6 @@ if (existsSync(clientDirectory)) {
 app.use((error: unknown, _request: express.Request, response: express.Response, _next: express.NextFunction) => {
   const message = error instanceof Error ? error.message : "Unexpected server error";
   const status = message.includes("not found") ? 404 : 502;
-  console.error(`[pulsefolio-api] ${message}`);
+  console.error(`[market-scope-api] ${message}`);
   response.status(status).json({ error: message });
 });

@@ -1,0 +1,238 @@
+{
+  "portfolioName": "Long-term growth",
+  "generatedAt": "2026-11-21T12:08:05.166Z",
+  "assets": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "type": "Stock",
+      "price": 228.12,
+      "currency": "USD",
+      "quantity": 12,
+      "allocation": 22,
+      "sector": "Technology",
+      "changePercent": 2.68,
+      "history": [
+        209.97,
+        213.51,
+        215.17,
+        216.73,
+        220.37,
+        222.39,
+        222.04,
+        228.48,
+        231.66
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "type": "Stock",
+      "price": 421.5,
+      "currency": "USD",
+      "quantity": 7,
+      "allocation": 20,
+      "sector": "Technology",
+      "changePercent": 1.8,
+      "history": [
+        382.74,
+        392.22,
+        399.45,
+        404.99,
+        409,
+        406.56,
+        411.12,
+        421.66,
+        428.58
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "type": "Stock",
+      "price": 139.62,
+      "currency": "USD",
+      "quantity": 16,
+      "allocation": 18,
+      "sector": "Semiconductors",
+      "changePercent": -0.93,
+      "history": [
+        127.2,
+        128.42,
+        130.74,
+        133.02,
+        132.5,
+        135.94,
+        138.36,
+        138.9,
+        141.62
+      ]
+    },
+    {
+      "symbol": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "type": "ETF",
+      "price": 548.3,
+      "currency": "USD",
+      "quantity": 5,
+      "allocation": 18,
+      "sector": "Index fund",
+      "changePercent": -1.14,
+      "history": [
+        505.9,
+        506.57,
+        509.05,
+        525.24,
+        522.34,
+        531.04,
+        543.41,
+        543.42,
+        546.52
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "type": "Crypto",
+      "price": 96540,
+      "currency": "USD",
+      "quantity": 0.035,
+      "allocation": 12,
+      "sector": "Digital assets",
+      "changePercent": 3.15,
+      "history": [
+        87332.7,
+        89641.82,
+        91481.03,
+        91099.8,
+        93094.2,
+        92853.26,
+        93989.77,
+        96004.66,
+        98041.27
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "date": "2026-06",
+      "value": 28607
+    },
+    {
+      "date": "2026-07",
+      "value": 28859
+    },
+    {
+      "date": "2026-08",
+      "value": 29660
+    },
+    {
+      "date": "2026-09",
+      "value": 30059
+    },
+    {
+      "date": "2026-10",
+      "value": 31469
+    },
+    {
+      "date": "2026-11",
+      "value": 31870
+    }
+  ],
+  "activity": [
+    {
+      "id": "activity-1",
+      "type": "Buy",
+      "symbol": "NVDA",
+      "description": "Recurring investment",
+      "amount": 698.1,
+      "occurredAt": "2026-11-19T14:20:00.000Z"
+    },
+    {
+      "id": "activity-2",
+      "type": "Dividend",
+      "symbol": "MSFT",
+      "description": "Quarterly dividend",
+      "amount": 21.84,
+      "occurredAt": "2026-11-15T09:00:00.000Z"
+    },
+    {
+      "id": "activity-3",
+      "type": "Buy",
+      "symbol": "VOO",
+      "description": "Monthly deposit",
+      "amount": 1096.6,
+      "occurredAt": "2026-11-10T16:45:00.000Z"
+    },
+    {
+      "id": "activity-4",
+      "type": "Sell",
+      "symbol": "BTC",
+      "description": "Portfolio rebalance",
+      "amount": 412.35,
+      "occurredAt": "2026-11-06T11:30:00.000Z"
+    }
+  ],
+  "board": [
+    {
+      "id": "item-1",
+      "title": "Compare AI infrastructure ETFs",
+      "description": "Rank funds by fees, liquidity and concentration.",
+      "status": "backlog",
+      "priority": "Medium",
+      "tag": "ETF",
+      "owner": "MJ",
+      "dueDate": "2026-11-28"
+    },
+    {
+      "id": "item-2",
+      "title": "Review semiconductor thesis",
+      "description": "Check demand, margins and valuation scenarios.",
+      "status": "backlog",
+      "priority": "High",
+      "tag": "Stocks",
+      "owner": "AK",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "id": "item-3",
+      "title": "Build dividend scenario model",
+      "description": "Compare yield stability under two rate paths.",
+      "status": "researching",
+      "priority": "Medium",
+      "tag": "Model",
+      "owner": "RS",
+      "dueDate": "2026-11-25"
+    },
+    {
+      "id": "item-4",
+      "title": "Rebalance technology exposure",
+      "description": "Model a 3% reduction with minimal tax impact.",
+      "status": "researching",
+      "priority": "High",
+      "tag": "Strategy",
+      "owner": "MJ",
+      "dueDate": "2026-11-24"
+    },
+    {
+      "id": "item-5",
+      "title": "Validate emergency-fund target",
+      "description": "Confirm the six-month liquidity plan.",
+      "status": "review",
+      "priority": "Low",
+      "tag": "Planning",
+      "owner": "LP",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "id": "item-6",
+      "title": "Quarterly portfolio review",
+      "description": "Document drift, returns and next actions.",
+      "status": "done",
+      "priority": "Medium",
+      "tag": "Review",
+      "owner": "RS",
+      "dueDate": "2026-11-18"
+    }
+  ]
+}
